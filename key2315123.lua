@@ -33,5 +33,5 @@ else
 		Icon = "rbxassetid://1234567890" -- Optional
 	})
     wait(5)
-	game.Players.LocalPlayer:Kick("You have banned By Uzoth for reason of:Key not found. PLEASE BUY KEY time:9999999987 days")
+	print("failed")
 end
