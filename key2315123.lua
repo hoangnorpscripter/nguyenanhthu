@@ -1,13 +1,5 @@
-local scriptkey = (keycheck)
+local scriptkey = keycheck
 local keylist = {"a", "b", "c"}
-local loaded = false
-for _, value in ipairs(keylist) do
-    if value == scriptkey then
-        loaded = true
-        break
-    end
-end
-
 local loaded = false
 for _, value in ipairs(keylist) do
     if value == keycheck then
@@ -33,5 +25,5 @@ else
 		Icon = "rbxassetid://1234567890" -- Optional
 	})
     wait(5)
-	print("failed")
+	print("ấcdasdqsewqewqewqiosay89173892173")
 end
