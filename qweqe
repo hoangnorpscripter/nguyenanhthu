@@ -1,5 +1,3 @@
-keycheck = "b"
-
 local scriptkey = keycheck
 local keylist = {"a", "b", "c"}
 local loaded = false
