@@ -1,4 +1,5 @@
--- checking key
+-- input key
+scriptkey = (checkkey)
 local keylist = {"a", "b", "c"}
 
 local loaded = false
@@ -11,20 +12,20 @@ end
 
 if loaded then
     print("Key Incorrect")
-    game:GetService("StarterGui"):SetCore("SendNotification",{
-        Title = "Key found", -- Required
-        Text = "Thank you for buy key", -- Required
-        Icon = "rbxassetid://1234567890" -- Optional
-    })
-    wait(3)
-    print("script")
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "Key found", -- Required
+		Text = "Thank you for buy key", -- Required
+		Icon = "rbxassetid://1234567890" -- Optional
+	})
+	wait(3)
+	print("script")
 else
     print("Script not loaded")
-    game:GetService("StarterGui"):SetCore("SendNotification",{
-        Title = "Key Incorrect", -- Required
-        Text = "Mua key pls", -- Required
-        Icon = "rbxassetid://1234567890" -- Optional
-    })
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "Key Incorrect", -- Required
+		Text = "Mua key pls", -- Required
+		Icon = "rbxassetid://1234567890" -- Optional
+	})
     wait(5)
-    game.Players.LocalPlayer:Kick("You have banned By Afxcaxi for reason of:Key not found. PLEASE BUY KEY time:9999999987 days")
+	game.Players.LocalPlayer:Kick("You have banned By Uzoth for reason of:Key not found. PLEASE BUY KEY time:9999999987 days")
 end
