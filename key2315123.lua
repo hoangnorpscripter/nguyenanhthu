@@ -1,5 +1,6 @@
 -- input key
 scriptkey = (keycheck)
+
 local keylist = {"a", "b", "c"}
 
 local loaded = false
