@@ -1,8 +1,5 @@
--- input key
-scriptkey = (keycheck)
-
+local scriptkey = (keycheck)
 local keylist = {"a", "b", "c"}
-
 local loaded = false
 for _, value in ipairs(keylist) do
     if value == scriptkey then
